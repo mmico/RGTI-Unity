@@ -1,0 +1,34 @@
+# Blender MTL File: 'kanal_raven.blend'
+# Material Count: 3
+
+newmtl Material.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.621921 0.621921 0.621921
+Ks 0.002825 0.002825 0.002825
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lenovo\Documents\NTF\1_ letnik_MAG\Napredna računalniška 3D grafika in vizualizacije\igra\svet\tekstura_beton.jpg
+
+newmtl Material.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Lenovo\Documents\NTF\1_ letnik_MAG\Napredna računalniška 3D grafika in vizualizacije\igra\svet\tekstura_opeka.jpg
+
+newmtl Material.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.193820 0.193820 0.193820
+Ks 0.266436 0.266436 0.266436
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
