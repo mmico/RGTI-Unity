@@ -53,7 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Key.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\Raycast.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/micom/OneDrive/Desktop/rgti/seminar2/RGTI-Unity/Underground/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
