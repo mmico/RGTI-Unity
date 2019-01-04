@@ -1,0 +1,24 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl kljuka
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.162781 0.162781 0.162781
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Lenovo\\Documents\\NTF\\1_ letnik_MAG\\Napredna računalniška 3D grafika in vizualizacije\\igra\\soba\\soba_kljuka.jpg
+
+newmtl vrata
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.102887 0.102887 0.102887
+Ks 0.010000 0.010000 0.010000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lenovo\Documents\NTF\1_ letnik_MAG\Napredna računalniška 3D grafika in vizualizacije\igra\soba\soba_vrata.jpg
