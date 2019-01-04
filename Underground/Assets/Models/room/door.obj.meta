@@ -12,7 +12,17 @@ ModelImporter:
     2300000: default
     3300000: default
     4300000: default
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kljuka
+    second: {fileID: 2100000, guid: d1918891bbc3d034abc0e7593eee4eb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vrata
+    second: {fileID: 2100000, guid: d2f6385847b739c43a64ecddd32ea83f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

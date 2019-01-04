@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Key : MonoBehaviour
 {
+
+    public string color;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,6 @@ public class Key : MonoBehaviour
 
     public void Interact()
     {
-        Debug.Log("qwe");
+        GameState.canOpenDoor[color] = true;
     }
 }
