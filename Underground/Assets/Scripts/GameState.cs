@@ -6,6 +6,8 @@ public static class GameState
 {
     public static Dictionary<string, bool> canOpenDoor = new Dictionary<string, bool>();
 
+    public static bool switchOn = false;
+
     // Start is called before the first frame update
    /* void Start()
     {

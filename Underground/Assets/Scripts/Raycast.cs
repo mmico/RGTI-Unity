@@ -32,6 +32,14 @@ public class Raycast : MonoBehaviour
                     hit.collider.gameObject.GetComponent<Door>().Interact();
                 }
             }
+
+            if (hit.collider.gameObject.tag == "Switch")
+            {
+                if (Input.GetKey(KeyCode.E))
+                {
+                    hit.collider.gameObject.GetComponent<Switch>().Interact();
+                }
+            }
         }
     }
 }
