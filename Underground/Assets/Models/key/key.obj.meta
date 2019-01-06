@@ -11,7 +11,12 @@ ModelImporter:
     2300000: default
     3300000: default
     4300000: default
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong2SG
+    second: {fileID: 2100000, guid: cd19fe2131dddea4da8588751247a714, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
