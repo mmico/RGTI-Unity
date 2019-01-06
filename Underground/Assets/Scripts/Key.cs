@@ -21,5 +21,6 @@ public class Key : MonoBehaviour
     public void Interact()
     {
         GameState.canOpenDoor[color] = true;
+        this.GetComponent<MeshRenderer>().enabled = false;
     }
 }

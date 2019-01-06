@@ -5,11 +5,12 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     public string color;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,7 +25,7 @@ public class Door : MonoBehaviour
         {
             if (GameState.canOpenDoor[color])
             {
-                Debug.Log("qwe");
+                animator.SetBool("DoorOpen", true);
             }
         }
     }
