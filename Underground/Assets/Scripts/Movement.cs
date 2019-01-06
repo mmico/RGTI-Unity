@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour
 
     public float moveSpeed;
     public float turnSpeed;
+    public float lookX;
 
     // Start is called before the first frame update
     void Start()
@@ -21,12 +22,16 @@ public class Movement : MonoBehaviour
             transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
 
         if (Input.GetKey(KeyCode.S))
-            transform.Translate(-Vector3.forward * moveSpeed * Time.deltaTime);
+            transform.Translate(Vector3.back * moveSpeed * Time.deltaTime);
 
         if (Input.GetKey(KeyCode.A))
-            transform.Rotate(Vector3.up, -turnSpeed * Time.deltaTime);
+            transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
 
         if (Input.GetKey(KeyCode.D))
-            transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);
+            transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
+
+        lookX = Input.GetAxis("Mouse X") * turnSpeed/30;
+
+        transform.Rotate(Vector3.up, lookX);
     }
 }
