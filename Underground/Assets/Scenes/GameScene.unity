@@ -3040,8 +3040,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.20008999, y: 1.97, z: 0.95323396}
-  m_Center: {x: -0.00022399798, y: 0, z: -0.464383}
+  m_Size: {x: 0.37770844, y: 1.97, z: 0.95323396}
+  m_Center: {x: -0.06637573, y: 0, z: -0.464383}
 --- !u!114 &1042314773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3055,6 +3055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: red
+  animator: {fileID: 0}
 --- !u!1 &1049245902
 GameObject:
   m_ObjectHideFlags: 0
