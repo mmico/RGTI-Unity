@@ -16,7 +16,7 @@ public class Raycast : MonoBehaviour
     void Update()
     {
         //Debug.Log(GameState.canOpenDoor.Count);
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 1.5f))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 2.0f))
         {
             if (hit.collider.gameObject.tag == "Key") {
                 if (Input.GetKey(KeyCode.E))

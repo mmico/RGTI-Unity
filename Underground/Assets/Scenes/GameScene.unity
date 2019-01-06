@@ -733,7 +733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 1454084e253056c4685c7e840e85b041, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.769
+      value: -8.784
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 1454084e253056c4685c7e840e85b041, type: 3}
       propertyPath: m_LocalRotation.x
@@ -769,7 +769,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1454084e253056c4685c7e840e85b041, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 31.015
+      value: 31.021
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1454084e253056c4685c7e840e85b041, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3020,7 +3020,7 @@ Animator:
   m_GameObject: {fileID: 1042314768}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ba3c524e9d1d70e48bd81bd59f5911c1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 10f1f81b711700e408582d71c550b1c9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3040,8 +3040,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.37770844, y: 1.97, z: 0.95323396}
-  m_Center: {x: -0.06637573, y: 0, z: -0.464383}
+  m_Size: {x: 0.05, y: 1.97, z: 0.97}
+  m_Center: {x: 0.0062294006, y: 0, z: -0.464383}
 --- !u!114 &1042314773
 MonoBehaviour:
   m_ObjectHideFlags: 0
