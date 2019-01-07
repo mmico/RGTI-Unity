@@ -8,11 +8,14 @@ public class Movement : MonoBehaviour
     public float moveSpeed;
     public float turnSpeed;
     public float lookX;
+    public float lookY;
+    float rotation = 0.0f;
+    private new Transform camera;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        camera = this.gameObject.transform.GetChild(0);
     }
 
     // Update is called once per frame
@@ -31,7 +34,22 @@ public class Movement : MonoBehaviour
             transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
 
         lookX = Input.GetAxis("Mouse X") * turnSpeed/30;
+        lookY = Input.GetAxis("Mouse Y") * turnSpeed / 30;
 
         transform.Rotate(Vector3.up, lookX);
+
+        if (rotation + lookY > 90.0f)
+            lookY = lookY - (rotation + lookY - 90.0f);
+
+        if (rotation + lookY < -90.0f)
+            lookY = lookY - (rotation + lookY + 90.0f);
+
+        //if (rotation  <= 90.0f && rotation >= -90.0f )
+        //{
+            camera.transform.Rotate(Vector3.left, lookY);
+            rotation += lookY;
+        //}
+
+       
     }
 }

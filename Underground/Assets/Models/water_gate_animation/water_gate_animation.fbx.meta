@@ -4,12 +4,24 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: zelezna_vrata.001
+    100004: zelezna_vrata_nosilec.001
     400000: //RootNode
+    400002: zelezna_vrata.001
+    400004: zelezna_vrata_nosilec.001
     2100000: Material
+    2100002: Material.002
     2300000: //RootNode
+    2300002: zelezna_vrata.001
+    2300004: zelezna_vrata_nosilec.001
     3300000: //RootNode
+    3300002: zelezna_vrata.001
+    3300004: zelezna_vrata_nosilec.001
     4300000: zelezna_vrata
+    4300002: zelezna_vrata_nosilec.001
+    4300004: zelezna_vrata.001
     7400000: zelezna_vrata|zelezna_vrataAction.002
+    7400002: zelezna_vrata.001|zelezna_vrata.001Action
     9500000: //RootNode
   externalObjects: {}
   materials:
