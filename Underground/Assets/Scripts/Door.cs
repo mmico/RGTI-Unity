@@ -6,11 +6,13 @@ public class Door : MonoBehaviour
 {
     public string color;
     Animator animator;
+    AudioSource[] clips;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = this.GetComponent<Animator>();
+        clips = this.GetComponents<AudioSource>();
     }
 
     // Update is called once per frame
@@ -26,7 +28,12 @@ public class Door : MonoBehaviour
             if (GameState.canOpenDoor[color])
             {
                 animator.SetBool("DoorOpen", true);
+                clips[1].Play();
             }
+        }
+        else
+        {
+            clips[0].Play();
         }
     }
 }

@@ -5,11 +5,13 @@ using UnityEngine;
 public class Switch : MonoBehaviour
 {
     Animator animator;
+    AudioSource clip;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = this.GetComponent<Animator>();
+        clip = this.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -24,6 +26,7 @@ public class Switch : MonoBehaviour
         {
             GameState.switchOn = true;
             animator.SetBool("MoveSwitch", true);
+            clip.Play();
         }
     }
 }
