@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\Raycast.cs" />
      <Compile Include="Assets\Scripts\Switch.cs" />
+     <Compile Include="Assets\Scripts\WaterGate.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/micom/OneDrive/Desktop/rgti/seminar2/RGTI-Unity/Underground/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
