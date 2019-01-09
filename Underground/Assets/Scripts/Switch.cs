@@ -22,6 +22,7 @@ public class Switch : MonoBehaviour
 
     public void Interact()
     {
+        this.tag = "Untagged";
         if (!GameState.switchOn)
         {
             GameState.switchOn = true;

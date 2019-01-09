@@ -27,6 +27,7 @@ public class Door : MonoBehaviour
         {
             if (GameState.canOpenDoor[color])
             {
+                this.tag = "Untagged";
                 animator.SetBool("DoorOpen", true);
                 clips[1].Play();
             }

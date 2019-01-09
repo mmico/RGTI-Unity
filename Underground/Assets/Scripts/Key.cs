@@ -20,7 +20,8 @@ public class Key : MonoBehaviour
 
     public void Interact()
     {
+        this.tag = "Untagged";
         GameState.canOpenDoor[color] = true;
-        this.GetComponent<MeshRenderer>().enabled = false;
+        this.gameObject.SetActive(false);
     }
 }
