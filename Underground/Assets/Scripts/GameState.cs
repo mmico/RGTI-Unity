@@ -8,6 +8,10 @@ public static class GameState
 
     public static bool switchOn = false;
 
+    public static bool inKeypad = false;
+
+    public static bool correctCode = false;
+
     // Start is called before the first frame update
    /* void Start()
     {

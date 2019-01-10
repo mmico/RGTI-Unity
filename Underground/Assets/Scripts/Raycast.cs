@@ -21,43 +21,56 @@ public class Raycast : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Physics.Raycast(camera.transform.position, camera.transform.TransformDirection(Vector3.forward), out hit, 2.0f))
+        if (!GameState.inKeypad)
         {
-            if (hit.collider.gameObject.tag == "Key") {
-                canvas.SetActive(true);
-                if (Input.GetKey(KeyCode.E))
-                {
-                    hit.collider.gameObject.GetComponent<Key>().Interact();
-                    canvas.SetActive(false);
-                    pickUpAnim();
-                }
-            }
-
-            if (hit.collider.gameObject.tag == "Door")
+            if (Physics.Raycast(camera.transform.position, camera.transform.TransformDirection(Vector3.forward), out hit, 2.0f))
             {
-                canvas.SetActive(true);
-                if (Input.GetKey(KeyCode.E))
+                if (hit.collider.gameObject.tag == "Key")
                 {
-                    hit.collider.gameObject.GetComponent<Door>().Interact();
-                    canvas.SetActive(false);
-                    pickUpAnim();
+                    canvas.SetActive(true);
+                    if (Input.GetKey(KeyCode.E))
+                    {
+                        hit.collider.gameObject.GetComponent<Key>().Interact();
+                        canvas.SetActive(false);
+                        pickUpAnim();
+                    }
                 }
-            }
 
-            if (hit.collider.gameObject.tag == "Switch")
-            {
-                canvas.SetActive(true);
-                if (Input.GetKey(KeyCode.E))
+                if (hit.collider.gameObject.tag == "Door")
                 {
-                    hit.collider.gameObject.GetComponent<Switch>().Interact();
-                    canvas.SetActive(false);
-                    pickUpAnim();
+                    canvas.SetActive(true);
+                    if (Input.GetKey(KeyCode.E))
+                    {
+                        hit.collider.gameObject.GetComponent<Door>().Interact();
+                        canvas.SetActive(false);
+                        pickUpAnim();
+                    }
+                }
+
+                if (hit.collider.gameObject.tag == "Switch")
+                {
+                    canvas.SetActive(true);
+                    if (Input.GetKey(KeyCode.E))
+                    {
+                        hit.collider.gameObject.GetComponent<Switch>().Interact();
+                        canvas.SetActive(false);
+                        pickUpAnim();
+                    }
+                }
+                if (hit.collider.gameObject.tag == "Keypad")
+                {
+                    canvas.SetActive(true);
+                    if (Input.GetKey(KeyCode.E))
+                    {
+                        hit.collider.gameObject.GetComponent<Keypad>().Interact();
+                        canvas.SetActive(false);
+                    }
                 }
             }
-        }
-        else
-        {
-            canvas.SetActive(false);
+            else
+            {
+                canvas.SetActive(false);
+            }
         }
     }
 

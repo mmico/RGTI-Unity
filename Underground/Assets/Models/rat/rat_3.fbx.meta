@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: e183672951b5c6f4e8d57e831f528361
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Cube.001
+    100004: dlan
+    100006: dlan.001
+    100008: dlan_IK
+    100010: dlan_IK.001
+    100012: glava
+    100014: hrbet_1
+    100016: hrbet_2
+    100018: hrbet_3
+    100020: hrbet_4
+    100022: hrbet_4.001
+    100024: hrbet_4.002
+    100026: medenica
+    100028: "me\u010Dnica"
+    100030: "me\u010Dnica.001"
+    100032: nadlahtnica
+    100034: nadlahtnica.001
+    100036: podlahtnica
+    100038: podlahtnica.001
+    100040: podlahtnica.002
+    100042: podlahtnica.003
+    100044: rama
+    100046: rama.001
+    100048: //RootNode
+    100050: rep_1
+    100052: rep_2
+    100054: rep_3
+    100056: rep_4
+    100058: stegnenica
+    100060: stegnenica.001
+    100062: stopalo_IK.001
+    100064: stopalo_spodaj
+    100066: stopalo_spodaj.001
+    100068: stopalo_spodaj.002
+    100070: stopalo_zgoraj
+    100072: stopalo_zgoraj.001
+    100074: vrtenje_spredaj
+    100076: vrtenje_spredaj.001
+    100078: vrtenje_zadaj
+    100080: vrtenje_zadaj.001
+    400000: Armature
+    400002: Cube.001
+    400004: dlan
+    400006: dlan.001
+    400008: dlan_IK
+    400010: dlan_IK.001
+    400012: glava
+    400014: hrbet_1
+    400016: hrbet_2
+    400018: hrbet_3
+    400020: hrbet_4
+    400022: hrbet_4.001
+    400024: hrbet_4.002
+    400026: medenica
+    400028: "me\u010Dnica"
+    400030: "me\u010Dnica.001"
+    400032: nadlahtnica
+    400034: nadlahtnica.001
+    400036: podlahtnica
+    400038: podlahtnica.001
+    400040: podlahtnica.002
+    400042: podlahtnica.003
+    400044: rama
+    400046: rama.001
+    400048: //RootNode
+    400050: rep_1
+    400052: rep_2
+    400054: rep_3
+    400056: rep_4
+    400058: stegnenica
+    400060: stegnenica.001
+    400062: stopalo_IK.001
+    400064: stopalo_spodaj
+    400066: stopalo_spodaj.001
+    400068: stopalo_spodaj.002
+    400070: stopalo_zgoraj
+    400072: stopalo_zgoraj.001
+    400074: vrtenje_spredaj
+    400076: vrtenje_spredaj.001
+    400078: vrtenje_zadaj
+    400080: vrtenje_zadaj.001
+    2100000: Material.002
+    4300000: Cube.001
+    7400000: Armature|ArmatureAction.001
+    9500000: //RootNode
+    13700000: Cube.001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
