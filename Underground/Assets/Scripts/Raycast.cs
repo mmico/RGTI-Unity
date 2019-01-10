@@ -23,7 +23,6 @@ public class Raycast : MonoBehaviour
     {
         if (Physics.Raycast(camera.transform.position, camera.transform.TransformDirection(Vector3.forward), out hit, 2.0f))
         {
-            Debug.Log(hit.collider.gameObject);
             if (hit.collider.gameObject.tag == "Key") {
                 canvas.SetActive(true);
                 if (Input.GetKey(KeyCode.E))
