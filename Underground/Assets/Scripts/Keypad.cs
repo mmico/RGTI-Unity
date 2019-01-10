@@ -17,6 +17,7 @@ public class Keypad : MonoBehaviour
         canvas = GameObject.Find("CanvasKeypad");
         canvas.SetActive(false);
         clips = this.GetComponents<AudioSource>();
+        GameState.inKeypad = false;
     }
 
     // Update is called once per frame

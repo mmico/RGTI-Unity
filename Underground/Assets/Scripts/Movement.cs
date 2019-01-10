@@ -23,7 +23,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!GameState.inKeypad)
+        if (!GameState.inKeypad && !GameState.gamePaused)
         {
             if (Input.GetKey(KeyCode.W))
             {

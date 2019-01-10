@@ -12,6 +12,8 @@ public static class GameState
 
     public static bool correctCode = false;
 
+    public static bool gamePaused = false;
+
     // Start is called before the first frame update
    /* void Start()
     {
