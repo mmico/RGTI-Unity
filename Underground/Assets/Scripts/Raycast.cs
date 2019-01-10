@@ -7,27 +7,30 @@ public class Raycast : MonoBehaviour
     RaycastHit hit;
     private new Transform camera;
     private new GameObject canvas;
+    Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
-        camera = this.gameObject.transform.GetChild(0);
+        camera = this.gameObject.transform.GetChild(7);
         canvas = GameObject.Find("Canvas");
         canvas.SetActive(false);
+        anim = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(GameState.canOpenDoor.Count);
         if (Physics.Raycast(camera.transform.position, camera.transform.TransformDirection(Vector3.forward), out hit, 2.0f))
         {
+            Debug.Log(hit.collider.gameObject);
             if (hit.collider.gameObject.tag == "Key") {
                 canvas.SetActive(true);
                 if (Input.GetKey(KeyCode.E))
                 {
                     hit.collider.gameObject.GetComponent<Key>().Interact();
                     canvas.SetActive(false);
+                    pickUpAnim();
                 }
             }
 
@@ -38,6 +41,7 @@ public class Raycast : MonoBehaviour
                 {
                     hit.collider.gameObject.GetComponent<Door>().Interact();
                     canvas.SetActive(false);
+                    pickUpAnim();
                 }
             }
 
@@ -48,6 +52,7 @@ public class Raycast : MonoBehaviour
                 {
                     hit.collider.gameObject.GetComponent<Switch>().Interact();
                     canvas.SetActive(false);
+                    pickUpAnim();
                 }
             }
         }
@@ -55,5 +60,11 @@ public class Raycast : MonoBehaviour
         {
             canvas.SetActive(false);
         }
+    }
+
+    void pickUpAnim()
+    {
+        anim.SetBool("PickUp", true);
+        //anim.SetBool("PickUp", false);
     }
 }
