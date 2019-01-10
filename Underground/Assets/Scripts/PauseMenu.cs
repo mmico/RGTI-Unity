@@ -38,6 +38,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
+        canvas.GetComponent<AudioSource>().Play();
         canvas.SetActive(false);
         GameState.gamePaused = false;
     }

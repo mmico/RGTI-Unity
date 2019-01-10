@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Raycast : MonoBehaviour
 {
@@ -64,6 +65,15 @@ public class Raycast : MonoBehaviour
                     {
                         hit.collider.gameObject.GetComponent<Keypad>().Interact();
                         canvas.SetActive(false);
+                    }
+                }
+                if (hit.collider.gameObject.tag == "Game end")
+                {
+                    canvas.SetActive(true);
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        canvas.SetActive(false);
+                        SceneManager.LoadScene("EndGame", LoadSceneMode.Single);
                     }
                 }
             }

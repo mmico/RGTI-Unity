@@ -17,7 +17,22 @@ ModelImporter:
     2300000: default
     3300000: default
     4300000: default
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 329f0f812b85b4e4186bd47973b063ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stena
+    second: {fileID: 2100000, guid: 852c04df35531824e890bc86ac889486, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tla
+    second: {fileID: 2100000, guid: ffa4959e44206e447adae770d093c670, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -14,4 +14,9 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("GameScene", LoadSceneMode.Single);
     }
+
+    public void Back()
+    {
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+    }
 }

@@ -56,6 +56,7 @@
      <Compile Include="Assets\Animation controler\ResetAnimation.cs" />
      <Compile Include="Assets\Menu\Background.cs" />
      <Compile Include="Assets\Menu\Menu.cs" />
+     <Compile Include="Assets\Scripts\CodeDoor.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
      <Compile Include="Assets\Scripts\FlickeringLight.cs" />
      <Compile Include="Assets\Scripts\GameState.cs" />
