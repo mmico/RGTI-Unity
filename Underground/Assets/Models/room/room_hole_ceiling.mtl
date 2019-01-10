@@ -1,38 +1,16 @@
 # Blender MTL File: 'soba.blend'
-# Material Count: 6
+# Material Count: 3
 
-newmtl kljuka
+newmtl Material.005
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
-Kd 0.162781 0.162781 0.162781
-Ks 0.100000 0.100000 0.100000
+Kd 0.153568 0.153568 0.153568
+Ks 0.015075 0.015075 0.015075
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd soba_kljuka.jpg
-
-newmtl miza
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.396430 0.396430 0.396430
-Ks 0.010000 0.010000 0.010000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd soba_miza.jpg
-
-newmtl omara
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.434226 0.434226 0.434226
-Ks 0.074803 0.074803 0.074803
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd soba_kljuka.jpg
+map_Kd C:\Users\Lenovo\Documents\NTF\1_ letnik_MAG\Napredna računalniška 3D grafika in vizualizacije\igra\lestev\tekstura_lestev.jpg
 
 newmtl stena
 Ns 96.078431
@@ -43,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd soba_stena.jpg
+map_Kd C:\Users\Lenovo\Documents\NTF\1_ letnik_MAG\Napredna računalniška 3D grafika in vizualizacije\igra\soba\soba_stena.jpg
 
 newmtl tla
 Ns 96.078431
@@ -54,15 +32,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd soba_tla.jpg
-
-newmtl vrata
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.102887 0.102887 0.102887
-Ks 0.010000 0.010000 0.010000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd soba_vrata.jpg
+map_Kd C:\Users\Lenovo\Documents\NTF\1_ letnik_MAG\Napredna računalniška 3D grafika in vizualizacije\igra\soba\soba_tla.jpg
