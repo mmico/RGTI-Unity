@@ -21,7 +21,7 @@ public class CodeDoor : MonoBehaviour
         if (GameState.correctCode)
         {
             animator.SetBool("DoorOpen", true);
-            clip.Play();
+            //clip.Play();
         }
     }
 }

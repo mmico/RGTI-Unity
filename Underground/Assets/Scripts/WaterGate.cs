@@ -7,6 +7,8 @@ public class WaterGate : MonoBehaviour
 
     Animator anim;
     AudioSource clip;
+    bool gateOpen = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +19,11 @@ public class WaterGate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameState.switchOn)
+        if (GameState.switchOn && !gateOpen)
         {
             anim.SetBool("OpenGate", true);
             clip.Play();
+            gateOpen = true;
         }
     }
 }

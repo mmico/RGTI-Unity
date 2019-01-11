@@ -9,6 +9,7 @@ TagManager:
   - Switch
   - Keypad
   - Game end
+  - Water switch
   layers:
   - Default
   - TransparentFX

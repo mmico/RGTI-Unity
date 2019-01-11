@@ -58,6 +58,16 @@ public class Raycast : MonoBehaviour
                         pickUpAnim();
                     }
                 }
+                if (hit.collider.gameObject.tag == "Water switch")
+                {
+                    canvas.SetActive(true);
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        hit.collider.gameObject.GetComponent<WaterSwitch>().Interact();
+                        canvas.SetActive(false);
+                        pickUpAnim();
+                    }
+                }
                 if (hit.collider.gameObject.tag == "Keypad")
                 {
                     canvas.SetActive(true);
