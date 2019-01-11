@@ -11,6 +11,7 @@ public class Background : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.visible = true;
         GetComponent<RawImage>().texture = movie as MovieTexture;
         movie.loop = true;
         movie.Play();
