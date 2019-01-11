@@ -25,6 +25,7 @@ public class Movement : MonoBehaviour
     {
         if (!GameState.inKeypad && !GameState.gamePaused)
         {
+            Cursor.visible = false;
             if (Input.GetKey(KeyCode.W))
             {
                 transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
@@ -67,6 +68,10 @@ public class Movement : MonoBehaviour
             camera.transform.Rotate(Vector3.left, lookY);
             rotation += lookY;
             //}
+        }
+        else
+        {
+            Cursor.visible = true;
         }
        
     }
