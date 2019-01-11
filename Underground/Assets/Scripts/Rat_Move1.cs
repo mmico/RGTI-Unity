@@ -37,7 +37,6 @@ public class Rat_Move1 : MonoBehaviour
     public void Move()
     {
         transform.LookAt(waypoints[num].transform.position);
-        transform.eulerAngles = new Vector3(0, transform.rotation.eulerAngles.y - 90, 0);
         transform.position += gameObject.transform.right * speed * Time.deltaTime;
     }
 
